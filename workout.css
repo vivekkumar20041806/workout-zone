@@ -80,7 +80,8 @@ header h1 {
 /* Exercise Gallery */
 .exercise-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, max-content));
+  justify-content: center; /* center align */
   gap: 25px;
   padding: 30px;
 }
@@ -92,7 +93,10 @@ header h1 {
   text-align: center;
   border: 1px solid #00ff99;
   transition: 0.3s;
+  max-width: 250px;
 }
+
+
 
 .exercise-card:hover {
   transform: scale(1.05);
@@ -245,14 +249,6 @@ header h1 {
 
 
 
-
-
-@media (max-width: 900px) {
-  .exercise-gallery {
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 20px;
-  }
-}
 
 /* Mobile view */
 @media (max-width: 600px) {
