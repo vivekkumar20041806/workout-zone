@@ -192,3 +192,12 @@ padding:5px 2px 0 0;
       padding: 10px;
     }
   }
+
+  @media (max-width:445px) {td {font-size: 10px;}}
+
+  
+@media (max-width:740px){ td img {width:80px} }
+@media (max-width:692px){ td img {width:60px} }
+@media (max-width:650px){ td img {width:40px} }
+@media (max-width:550px){ td img {width:35px} }
+@media (max-width:400px){ td img {width:30px} }
