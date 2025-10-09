@@ -125,6 +125,27 @@ header h1 {
 
 
 
+@media (max-width:500px){
+  header h1 {
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width:480px){
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width:390px){
+  header h1 {
+    font-size: 1.2rem;
+  }
+}
+
+
+
 @media (max-width: 500px) and (min-width: 350px) {
   .muscle-group-container {
     grid-template-columns: repeat(2, 1fr);
